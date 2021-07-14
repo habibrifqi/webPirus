@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/* //variables
+ color#6EC4EF;
+ #8A8C8D;
+ #1E8DD5  #040606;
+ */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/gg.png);
+    background-position-x: 100%;
+    background-position-y: -45%;
+    background-repeat: no-repeat;
+    background-size: 50vmax;
+}
+nav{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+}
+h1{
+    font-family: 'Newsreader', serif;  
+}
+.custom-nav .navbar-brand .logo{
+    width: 50px;
+    
+}
+.custom-nav .navbar-brand .judul{
+    width: 140px;
+    margin-left: -10px;
+    
+}
+#navbarNavAltMarkup .navbar-nav{
+    color: #1E8DD5;
+    text-transform: uppercase;
+    
+}
+
+.ll{
+    border-bottom:solid #1E8DD5;
+}
+
+#navbarNavAltMarkup .navbar-nav .nav-link{
+    color: #1E8DD5;
+    text-transform: uppercase;
+    margin-left: 2em;
+    
+}
+#navbarNavAltMarkup .navbar-nav .nav-link:hover{
+    color: #264285;
+    text-transform: uppercase;
+    margin-left: 2em;
+    
+}
+
+
+
+#navbarNavAltMarkup .navbar-nav .sign-up-button{
+    background-color: #1E8DD5;
+    color: white;
+    border-radius: 2em;
+    border: 0;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+}
+
+.isi{
+    margin-top: 7em;
+    z-index: 5;
+    margin-left: 20px;
+    
+    
+}
+.isi h2{
+    color: #1E8DD5;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.isi h3{
+    margin-top: -25px;
+    color: #888;
+    font-size: 4em;
+}
+.isi p{
+    color:#040606
+}
+.isi i{
+    color: #fff;
+    z-index: 6;
+    margin-left: 6px;
+}
+.more-info{
+    display: inline-block;
+    color: #fff;
+    border-radius: 15px;
+    background-color:#1E8DD5 ;
+    padding: 0.6em 2em;
+    text-decoration: none;
+
+}
+
+
+
+    
+
+
+
+
+@media screen and (max-width: 900px) {
+    body{
+        background-size: 0vmax;
+        background-position-y: -25%;
+        
+        
+    }
+.isi h2{
+    color: #8fb9aa;
+    font-size: 3em;
+    font-weight: 700;
+}
+.isi{
+<<<<<<< HEAD
+    margin-top: 0em;
+=======
+    margin-top: 2em;
+>>>>>>> e43eaddf288ed1a75d342a62beedaae5cebde00f
+    z-index: 5;
+    margin-left: 0px;
+    
+    
+}
+    body::after {
+        background-image: url(../img/gg.png);
+        content: "";
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-size: 85vmax;
+        background-position-y: 100%;
+        background-repeat: no-repeat;
+    
+      }
+      nav{
+          z-index: 2;
+      }
+}

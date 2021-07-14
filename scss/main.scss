@@ -1,0 +1,17 @@
+//font
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
+
+//variables
+$primaryColor: #6EC4EF;
+$secondayColor: #8A8C8D;
+$tertiaryColor: #1E8DD5;
+$textColor  : #040606;
+
+
+//style
+body{
+    // font-family: 'Open Sans', sans-serif;
+    font-family: 'Newsreader', serif;
+    background-image: url(../img/g10.png);
+}
